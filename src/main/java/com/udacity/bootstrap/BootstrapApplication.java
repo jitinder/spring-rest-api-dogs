@@ -15,7 +15,7 @@ public class BootstrapApplication {
 		SpringApplication.run(BootstrapApplication.class, args);
 	}
 
-	@Bean
+	/*@Bean
 	public RestTemplate restTemplate(RestTemplateBuilder builder){
 		return builder.build();
 	}
@@ -26,6 +26,6 @@ public class BootstrapApplication {
 			ShowCharacter character = restTemplate.getForObject("https://rickandmortyapi.com/api/character/1", ShowCharacter.class);
 			System.out.println(character.toString());
 		};
-	}
+	}*/
 
 }
